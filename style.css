@@ -1,0 +1,60 @@
+/* Corpo da página */
+body {
+
+    font-family: Arial;
+    margin: 0;
+    background-color: #f0f0f0;
+    }
+
+    /* Cabeçalho */
+        header {
+
+                background-color: black;
+                    padding: 20px;
+
+                    }
+
+                    /* Botões */
+                    button {
+
+                        padding: 10px;
+                            margin-right: 10px;
+                                cursor: pointer;
+
+                                }
+
+                                /* Parte principal */
+                                main {
+
+                                    display: flex;
+
+                                    }
+
+                                    /* Menu lateral */
+                                    aside {
+
+                                        width: 200px;
+                                            background-color: lightgray;
+                                                padding: 20px;
+                                                    height: 300px;
+
+                                                    }
+
+                                                    /* Texto */
+                                                    section {
+
+                                                        background-color: white;
+                                                        padding: 20px;
+                                                                flex: 1;
+
+                                                                }
+
+                                                                /* Rodapé */
+                                                                footer {
+
+                                                                    background-color: black;
+                                                                        color: white;
+                                                                            text-align: center;
+                                                                                padding: 15px;
+
+                                                                                }
