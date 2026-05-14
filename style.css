@@ -5,5 +5,35 @@
 }
 
 body {
-    font-family:"Guias da Playwrite Argentina",sans-serif ;
+    font-family:"Guias da Playwrite Argentina",sans-serif;
+    background-color: azure;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lista-header {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-header a {
+    text-decoration: none;
+    color: azure;
+}
+
+main {
+    background-color: azure;
+    display: flex;
 }
